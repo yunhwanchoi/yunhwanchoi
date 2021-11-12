@@ -12,7 +12,7 @@ The main goal of the project is prediction of the hours of absenteeism using reg
 [Repo](https://github.com/yunhwanchoi/predicting_absenteeism) | 
 
 **Tuning and Comparing Regression Models on Wildfires Dataset**\
-The following walks through a step by step model-tuning/model-selection process on provided training and test datasets wildfires_train.csv and wildfires_test.csv. I built various candidate models using tree-based regression algorithms and linear regression on wildfires_train.csv. Candidate models were evaluated on a provided test set wildfires_test.csv.\
+The following walks through a step by step model-tuning/model-selection process on provided training and test datasets wildfires_train and wildfires_test. I built various candidate models using tree-based regression algorithms and linear regression on the training set. Candidate models were evaluated on a provided test set.\
 [Repo](https://github.com/yunhwanchoi/wildfire_regression) | [Jupyter](https://github.com/yunhwanchoi/wildfire_regression/blob/main/Tuning%20and%20Comparing%20Models%20on%20Wildfires%20Dataset.ipynb)
 
 **EDA of MLB Batters from 1985 to 2020**\
