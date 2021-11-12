@@ -2,9 +2,9 @@
 
 - I am an aspiring data scientist who loves drawing interesting insights from data and communicating them by using analytical tools!
 - I graduated Northwestern University in 2021 with a Bachelor's Degree in Industrial Engineering with a Minor in Data Science
-- Experience coding in Python, R, and SQL languages
-- I’m currently expanding my knowledge and skills and practicing my skills in various ML algorithms, Neural Networks, Natural Language Processing, Sabermetrics, and creating interactive visualization tools with Shiny and Tableau.
-- The repositories contain a variety of assignments and projects I've partaken in. I am constantly updating this page over the course of my learning.
+- Experience coding in Python, R, and SQL
+- I’m currently expanding my knowledge and skills and practicing my skills in various ML algorithms, Neural Networks, Natural Language Processing, Sabermetrics, and creating interactive visualization tools with Shiny and Tableau
+- The repositories contain a variety of assignments and projects I've partaken in. I am constantly updating this page over the course of my learning
 
 ## Projects
 
