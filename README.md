@@ -8,17 +8,27 @@
 
 ## Projects
 
+**Querying Mock Business Performance Metrics using SQL**
+
+**Building a Q/A System**
+
+**Building Classifiers of Specific Text Entities** 
+
+**Clustering Medicare Providers Info**\
+The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
+[Repo](https://github.com/yunhwanchoi/Medicare-Clustering) | [Jupyter]
+
 **Predicting Absenteeism**\
 The main goal of the project is prediction of the hours of absenteeism using regression algorithms. Various types of models such as linear regression, random forest, and boosting was used to conduct regression to predict the hours of absenteeism for each attribute of absence, as well as determine the most important predictors for absenteeism.\
-[Repo](https://github.com/yunhwanchoi/predicting_absenteeism) | 
+[Repo](https://github.com/yunhwanchoi/Predicting-Absenteeism) | [Jupyter]
 
 **Tuning and Comparing Regression Models on Wildfires Dataset**\
 The following walks through a step by step model tuning/model selection process on provided training and test datasets wildfires_train and wildfires_test. I built various candidate models using tree-based regression algorithms and linear regression on the training set. Candidate models were evaluated on a provided test set.\
-[Repo](https://github.com/yunhwanchoi/wildfire_regression) | [Jupyter](https://github.com/yunhwanchoi/wildfire_regression/blob/main/Tuning%20and%20Comparing%20Models%20on%20Wildfires%20Dataset.ipynb)
+[Repo](https://github.com/yunhwanchoi/Wildfires-Regression) | [Jupyter](https://github.com/yunhwanchoi/Wildfires-Regression/blob/main/Tuning%20and%20Comparing%20Models%20on%20Wildfires%20Dataset.ipynb)
 
 **EDA of MLB Batters from 1985 to 2020**\
 I conducted basic exploratory data analysis to explore patterns and correlations within an MLB batter's performance metrics dating from 1985. I also attempted to highlight important factors that contribute to a team reaching the postseason (playoffs). I plan to use some of the insights gained from the following rudimentary data exploration for other personal projects such as using machine learning to determine whether a team is undervaluing or overvaluing a player, understanding player performance regression, as well as predicting the number of team wins given historical stats of players in the team.\
-[Repo](https://github.com/yunhwanchoi/mlb_salaries_eda) | [Jupyter](https://github.com/yunhwanchoi/mlb_salaries_eda/blob/main/EDA%20MLB%20Batters.ipynb)
+[Repo](https://github.com/yunhwanchoi/MLB-Batters-EDA) | [Jupyter](https://github.com/yunhwanchoi/MLB-Batters-EDA/blob/main/EDA%20MLB%20Batters.ipynb)
 
 
 📫 yunhwanchoi95@gmail.com
