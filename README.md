@@ -18,10 +18,6 @@
 The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
 [Repo](https://github.com/yunhwanchoi/Medicare-Clustering) | [Jupyter]
 
-**Predicting Absenteeism**\
-The main goal of the project is prediction of the hours of absenteeism using regression algorithms. Various types of models such as linear regression, random forest, and boosting was used to conduct regression to predict the hours of absenteeism for each attribute of absence, as well as determine the most important predictors for absenteeism.\
-[Repo](https://github.com/yunhwanchoi/Predicting-Absenteeism) | [Jupyter]
-
 **Tuning and Comparing Regression Models on Wildfires Dataset**\
 The following walks through a step by step model tuning/model selection process on provided training and test datasets wildfires_train and wildfires_test. I built various candidate models using tree-based regression algorithms and linear regression on the training set. Candidate models were evaluated on a provided test set.\
 [Repo](https://github.com/yunhwanchoi/Wildfires-Regression) | [Jupyter](https://github.com/yunhwanchoi/Wildfires-Regression/blob/main/Tuning%20and%20Comparing%20Models%20on%20Wildfires%20Dataset.ipynb)
