@@ -13,10 +13,12 @@
 **Building a Q/A System**
 
 **Building Classifiers of Specific Text Entities** 
+The following report describes a text classifier and extraction pipeline that parses through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. 
+[Repo](https://github.com/yunhwanchoi/Classifier-Text-Entities) | [Jupyter]()
 
 **Clustering Medicare Providers Info**\
 The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
-[Repo](https://github.com/yunhwanchoi/Medicare-Clustering) | [Jupyter]
+[Repo](https://github.com/yunhwanchoi/Medicare-Clustering) | [Jupyter](https://github.com/yunhwanchoi/Medicare-Clustering/blob/main/Medicare%20Providers%20Clustering.ipynb)
 
 **Tuning and Comparing Regression Models on Wildfires Dataset**\
 The following walks through a step by step model tuning/model selection process on provided training and test datasets wildfires_train and wildfires_test. I built various candidate models using tree-based regression algorithms and linear regression on the training set. Candidate models were evaluated on a provided test set.\
