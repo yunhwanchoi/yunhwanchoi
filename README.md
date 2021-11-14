@@ -17,7 +17,7 @@ The following document describes a step by step process of building a QA (Questi
 2. What percentage of drop or increase in GDP is associated with X?
 3. Who is the CEO of company X?
 
-By incorporating the scoring system of Elasticsearch, spaCy’s NER tagger, and other heuristic methods, the following QA system is successfully able to categorize queries and output relevant answers. 
+By incorporating the scoring system of Elasticsearch, spaCy’s NER tagger, and other heuristic methods, the following QA system is successfully able to categorize queries and output relevant answers.\
 [nbviewer](https://nbviewer.org/github/yunhwanchoi/BI-QA-System/blob/main/Building%20a%20QA%20System.ipynb) | [Repo](https://github.com/yunhwanchoi/BI-QA-System)
 
 **Building Classifiers of Specific Text Entities** \
