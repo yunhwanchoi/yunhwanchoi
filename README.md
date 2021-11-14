@@ -14,7 +14,7 @@
 
 **Building Classifiers of Specific Text Entities** \
 The following report describes a text classifier and extraction pipeline that parses through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. \
-[Repo](https://github.com/yunhwanchoi/Classifier-Text-Entities) | [Jupyter]()
+[Repo](https://github.com/yunhwanchoi/BI-Text-Classification) | [Jupyter - Overview](https://github.com/yunhwanchoi/BI-Text-Classification/blob/main/BI%20Text%20Classification%20Overview.ipynb) | [Jupyter - Full Code](https://github.com/yunhwanchoi/BI-Text-Classification/blob/main/BI%20Text%20Classification%20Code.ipynb)
 
 **Clustering Medicare Providers Info**\
 The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
