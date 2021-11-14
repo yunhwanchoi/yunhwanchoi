@@ -10,10 +10,18 @@
 
 **Querying Mock Business Performance Metrics using SQL**\
 
-**Building a Q/A System**\
+**Building a QA System**\
+The following document describes a step by step process of building a QA (Question Answering) System that parses through Business Insider articles from 2013 and 2014 and is capable answering the following questions:
+
+1. Which companies went bankrupt in month X of year Y?
+2. What percentage of drop or increase in GDP is associated with X?
+3. Who is the CEO of company X?
+
+By incorporating the scoring system of Elasticsearch, spaCy’s NER tagger, and other heuristic methods, the following QA system is successfully able to categorize queries and output relevant answers. 
+[nbviewer](https://nbviewer.org/github/yunhwanchoi/BI-QA-System/blob/main/Building%20a%20QA%20System.ipynb) | [Repo](https://github.com/yunhwanchoi/BI-QA-System)
 
 **Building Classifiers of Specific Text Entities** \
-The following report describes a text classifier and extraction pipeline that parses through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. \
+I built text classifiers that parse through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. \
 [Overview](https://nbviewer.org/github/yunhwanchoi/BI-Text-Classification/blob/main/BI%20Text%20Classification%20Overview.ipynb) | [Full Code](https://nbviewer.org/github/yunhwanchoi/BI-Text-Classification/blob/main/BI%20Text%20Classification%20Code.ipynb) | [Repo](https://github.com/yunhwanchoi/BI-Text-Classification)
 
 **Clustering Medicare Providers Info**\
