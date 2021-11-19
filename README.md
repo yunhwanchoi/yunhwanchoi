@@ -17,6 +17,10 @@ The following report takes a mock, custom-built e-commerce database and uses SQL
 The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
 [nbviewer](https://nbviewer.org/github/yunhwanchoi/Medicare-Clustering/blob/main/Medicare%20Providers%20Clustering.ipynb) | [Repo](https://github.com/yunhwanchoi/Medicare-Clustering)
 
+**Building Classifiers of Specific Text Entities** \
+I built text classifiers that parse through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. \
+[Overview](https://nbviewer.org/github/yunhwanchoi/BI-Text-Classification/blob/main/Text%20Classification%20Overview.ipynb) | [Full Code](https://nbviewer.org/github/yunhwanchoi/BI-Text-Classification/blob/main/Text%20Classification%20Code.ipynb) | [Repo](https://github.com/yunhwanchoi/BI-Text-Classification)
+
 **Building a QA System**\
 The following document describes a step by step process of building a QA (Question Answering) System that parses through Business Insider articles from 2013 and 2014 and is capable answering the following questions:
 
@@ -26,10 +30,6 @@ The following document describes a step by step process of building a QA (Questi
 
 By incorporating the scoring system of Elasticsearch, spaCy’s NER tagger, and other heuristic methods, the following QA system is successfully able to categorize queries and output relevant answers.\
 [nbviewer](https://nbviewer.org/github/yunhwanchoi/BI-QA-System/blob/main/Building%20a%20QA%20System.ipynb) | [Repo](https://github.com/yunhwanchoi/BI-QA-System)
-
-**Building Classifiers of Specific Text Entities** \
-I built text classifiers that parse through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. \
-[Overview](https://nbviewer.org/github/yunhwanchoi/BI-Text-Classification/blob/main/Text%20Classification%20Overview.ipynb) | [Full Code](https://nbviewer.org/github/yunhwanchoi/BI-Text-Classification/blob/main/Text%20Classification%20Code.ipynb) | [Repo](https://github.com/yunhwanchoi/BI-Text-Classification)
 
 **Tuning and Comparing Regression Models on Wildfires Dataset**\
 The following walks through a step by step model tuning/model selection process on provided training and test datasets wildfires_train and wildfires_test. I built various candidate models using tree-based regression algorithms and linear regression on the training set. Candidate models were evaluated on a provided test set.\
