@@ -10,12 +10,12 @@
 
 **SQL Business Analytics on E-Commerce Database**\
 The following report takes a mock, custom-built e-commerce database and uses SQL queries to extract data and insights valuable for a potential e-commerce business, such as website and traffic performance, product-level sales performance, and how customers access and interact with the website. Based on the results of the queries, I conducted analysis to help the business understand various user-interaction trends with the website, as well as to make bidding recommendations for the growth and profitability of the mock business.\
-[Analysis](https://github.com/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/README.md) | [Code](https://nbviewer.org/github/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/SQL%20Business%20Analytics%20E-Commerce%20Database%20%28Code%29.ipynb)
+[Project](https://github.com/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/README.md) | [Code](https://nbviewer.org/github/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/SQL%20Business%20Analytics%20E-Commerce%20Database%20%28Code%29.ipynb)
 
 
 **Clustering Medicare Providers Info**\
 The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
-[nbviewer](https://nbviewer.org/github/yunhwanchoi/Medicare-Clustering/blob/main/Medicare%20Providers%20Clustering.ipynb) | [Repo](https://github.com/yunhwanchoi/Medicare-Clustering)
+[Project](https://github.com/yunhwanchoi/Medicare-Clustering/blob/main/README.md) | [Code](https://nbviewer.org/github/yunhwanchoi/Medicare-Clustering/blob/main/Medicare%20Providers%20Clustering.ipynb)
 
 **Building Classifiers of Specific Text Entities** \
 I built text classifiers that parse through 730 articles on Business Insider and extracts all entities in which it recognizes as one of three types: CEOs, companies, and percentages. Based on provided label values for each of the three categories, a logistic regression model for each entity type was constructed to classify the words based the context of the sentence they are in. The CEO classifier, company classifier, and the percentage classifier models were run through a subset of entities from the corpus composing of all 730 articles. \
