@@ -10,7 +10,7 @@
 
 **SQL Business Analytics on E-Commerce Database**\
 The following report takes a mock, custom-built e-commerce database and uses SQL queries to extract data and insights valuable for a potential e-commerce business, such as website and traffic performance, product-level sales performance, and how customers access and interact with the website. Based on the results of the queries, I conducted analysis to help the business understand various user-interaction trends with the website, as well as to make bidding recommendations for the growth and profitability of the mock business.\
-[Repo](https://github.com/yunhwanchoi/SQL-Analysis-E-Commerce-Database)
+[Analysis](https://github.com/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/README.md) | [Code](https://nbviewer.org/github/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/SQL%20Business%20Analytics%20E-Commerce%20Database%20%28Code%29.ipynb)
 
 
 **Clustering Medicare Providers Info**\
