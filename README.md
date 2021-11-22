@@ -14,7 +14,7 @@ This project takes a mock, custom-built e-commerce database and uses SQL queries
 [Project](https://github.com/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/README.md) | [Full Code](https://nbviewer.org/github/yunhwanchoi/SQL-Analysis-E-Commerce-Database/blob/main/SQL%20Business%20Analytics%20E-Commerce%20Database%20%28Code%29.ipynb)
 
 
-**Clustering Medicare Providers Info**\
+**K-Means Clustering Medicare Services in the Emergency Department**\
 The emergency department is chaotic in nature and requires a lot of resources, and therefore is often expensive to manage. Therefore, understanding the pattern of spending in ED is crucial for healthcare entities and systems to efficiently operate. The goal of this analysis is to generate insights about spending patterns by Emergency Departments via segmenting lines of services with similar characteristics into different groups by using K-means clustering.\
 *Languages/Packges Used: Python (pandas, seaborn, scikit-learn)*\
 [Project](https://github.com/yunhwanchoi/Medicare-Clustering/blob/main/README.md) | [Full Code](https://nbviewer.org/github/yunhwanchoi/Medicare-Clustering/blob/main/Medicare%20Providers%20Clustering.ipynb)
